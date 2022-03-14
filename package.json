@@ -1,0 +1,34 @@
+{
+  "name": "schokofinder",
+  "version": "1.0.0",
+  "description": "A small website centered around a chocolate quiz",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DHBW-FN-TIT20/Schokofinder.git"
+  },
+  "keywords": [
+    "Chocolate",
+    "node",
+    "fastify",
+    "handlebars"
+  ],
+  "author": "Ralf Ehli, Jonas Straub, Baldur Siegel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DHBW-FN-TIT20/Schokofinder/issues"
+  },
+  "homepage": "https://github.com/DHBW-FN-TIT20/Schokofinder#readme",
+  "dependencies": {
+    "fastify": "^3.27.4",
+    "fastify-formbody": "^5.2.0",
+    "fastify-static": "^4.5.0",
+    "handlebars": "^4.7.7",
+    "jsdoc": "^3.6.10",
+    "point-of-view": "^5.1.0"
+  }
+}

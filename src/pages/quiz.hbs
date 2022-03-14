@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="de">
+
+    {{> htmlheader title="Schokoquiz"}}
+  
+    <body>
+
+        {{> nav items=pagesList}}
+
+        <div class="container-sm">
+            <div class="row justify-content-center">
+                <div class="col limit-width-880">
+                    <h1 class="mb-0">Schokoquiz</h1>
+                    <h4 class="fst-italic mt-0 mb-4">Beantworte die Fragen und finde deine Lieblingsschokolade!</h4>
+                  
+                    <form class="limit-width-768 quiz-container" id="quizContainer">
+                        <h4>Eher S&uuml;&szlig; oder Bitter?</h4>
+                        <div id="sweetBitter" class="my-3 mx-auto d-flex flex-sm-row flex-column justify-content-sm-center align-items-center">
+                            <label for="sweetBitterSweet" class="radio-container">S&uuml;&szlig;
+                                <input type="radio" name="sweetBitter" id="sweetBitterSweet" autocomplete="off">
+                                <span class="radio-checkmark"></span>
+                            </label>
+                            <label for="sweetBitterNeutral" class="radio-container">Neutral
+                                <input type="radio" name="sweetBitter" id="sweetBitterNeutral" autocomplete="off">
+                                <span class="radio-checkmark-small"></span>
+                            </label>
+                            <label for="sweetBitterBitter" class="radio-container">Bitter
+                                <input type="radio" name="sweetBitter" id="sweetBitterBitter" autocomplete="off">
+                                <span class="radio-checkmark"></span>
+                            </label>
+                        </div>
+
+                        <hr style="margin: 1em 0;">
+
+                        <h4>Eher edel oder g&uuml;nstig?</h4>
+                        <div id="expensiveCheap" class="my-3 mx-auto d-flex flex-sm-row flex-column justify-content-sm-center align-items-center">
+                            <label for="expensiveCheapExpensive" class="radio-container">Edel
+                                <input type="radio" name="expensiveCheap" id="expensiveCheapExpensive" autocomplete="off">
+                                <span class="radio-checkmark"></span>
+                            </label>
+                            <label for="expensiveCheapNeutral" class="radio-container">Neutral
+                                <input type="radio" name="expensiveCheap" id="expensiveCheapNeutral" autocomplete="off">
+                                <span class="radio-checkmark-small"></span>
+                            </label>
+                            <label for="expensiveCheapCheap" class="radio-container">G&uuml;nstig
+                                <input type="radio" name="expensiveCheap" id="expensiveCheapCheap" autocomplete="off">
+                                <span class="radio-checkmark"></span>
+                            </label>
+                        </div>
+
+                        <hr style="margin: 1em 0;">
+
+                        <h4>Was f&uuml;r Schokolade magst du gerne?</h4>
+                        <div id="chocoType" class="my-3 mx-auto d-flex flex-sm-row flex-column justify-content-sm-center align-items-center">
+                            <label for="chocoTypeDark" class="radio-container">Dunkel
+                                <input type="radio" name="chocoType" id="chocoTypeDark" autocomplete="off">
+                                <span class="radio-checkmark"></span>
+                            </label>
+                            <label for="chocoTypeMilk" class="radio-container">Milch
+                                <input type="radio" name="chocoType" id="chocoTypeMilk" autocomplete="off">
+                                <span class="radio-checkmark"></span>
+                            </label>
+                            <label for="chocoTypeWhite" class="radio-container">Hell
+                                <input type="radio" name="chocoType" id="chocoTypeWhite" autocomplete="off">
+                                <span class="radio-checkmark"></span>
+                            </label>
+                        </div>
+
+                        <hr>
+
+                        <h4>Mit oder ohne Inhalt? (wie z.b. N&uuml;sse)</h4>
+                        <div id="chocoFill" class="my-3 w-75 mx-auto d-flex flex-sm-row flex-column justify-content-sm-center align-items-center">
+                            <label for="withFill" class="radio-container">Mit
+                                <input type="radio" name="chocoFill" id="withFill" autocomplete="off">
+                                <span class="radio-checkmark"></span>
+                            </label>
+                            <label for="withoutFill" class="radio-container">Ohne
+                                <input type="radio" name="chocoFill" id="withoutFill" autocomplete="off">
+                                <span class="radio-checkmark"></span>
+                            </label>
+                        </div>
+                      
+                        <hr class="my-3 mx-0">
+                      
+                        <div id="ccContainer" class="d-none">
+
+                            <h4 class="">Mit welchem Inhalt?</h4>
+                            <div id="cc" class="my-3 mx-auto d-flex flex-sm-row flex-column flex-row justify-content-sm-center align-items-center">
+                                <div class="d-flex flex-column">
+                                    <label for="ccNuts" class="checkmark-container">N&uuml;sse
+                                        <input type="checkbox" name="chocoContents" id="ccNuts" autocomplete="off">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label for="ccCaramel" class="checkmark-container">Karamell
+                                        <input type="checkbox" name="chocoContents" id="ccCaramel" autocomplete="off">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <div class="d-none d-sm-block mx-4"></div>
+                                <div class="d-flex flex-column">
+                                    <label for="ccCookie" class="checkmark-container">Kekse
+                                        <input type="checkbox" name="chocoContents" id="ccCookie" autocomplete="off">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label for="ccFruit" class="checkmark-container">Fr&uuml;chte
+                                        <input type="checkbox" name="chocoContents" id="ccFruit" autocomplete="off">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                          
+                            <hr class="my-3 mx-0">
+                          
+                        </div>
+                    </form>
+                  
+                    <div id="spinner" class="d-none justify-content-center">
+                        <div class="lds-ellipsis">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                  
+                    <div id="resultContainerParent" class="d-none">
+                        <p class="fs-3 fst-italic mb-0">Wir empfehlen:</p>
+                        <hr class="m-0 mb-3">
+                        <div id="resultContainer" class="result-container">
+                            
+                        </div>
+                    </div>
+                  
+                    <div id="errorMessage" class="text-center d-none">
+                        <p class="fs-3 mb-2 mt-4 text-danger fst-italic">Bitte f&uuml;llen sie alle Fragen aus</p>
+                    </div>
+                  
+                    <div class="d-flex justify-content-center">
+                        <button id="findChocolate" onclick="findChocolate()" class="btn btn-lg btn-outline-light m-3 button-schokofinden">Schokolade Finden</button>
+                    </div>
+                    <div class="d-flex justify-content-center d-none">
+                        <button id="resetQuiz" onclick="resetQuiz()" class="btn btn-lg btn-outline-light m-3 button-schokofinden">Erneut Suchen</button>
+                    </div>
+                  
+                    <div class="my-5">
+                        <!-- spacer to prevent awkward bottom buttons -->  
+                    </div>
+                    
+                </div> <!-- col -->
+            </div> <!-- row -->
+        </div> <!-- container-sm -->
+    
+    {{> footer}}  
+    
+    <script src="/static/quiz.js"></script>
+    <script>
+        //initialize event handlers
+        init();
+    </script>
+    </body>
+</html>
