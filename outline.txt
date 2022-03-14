@@ -1,0 +1,86 @@
+Suß <--> Bitter
+Billig <--> Teuer
+Herstellungsort (USA/Schweiz/Deutschland)
+Laktose inteoleranz?
+
+Was soll rein?
+ - Nichts
+ - Nüsse bzw. was für nüsse?
+ - Sußes wie Karamell
+ - Salziges wie Erdnusbutter oder
+
+{
+	schokolade: [
+		{
+    name: "Milka MaXX Toffee", 
+    typ: "milch", 
+    geschmack: "suß", 
+    preis: "billig", 
+    ort: "deutschland", 
+    hersteller: "milka", 
+    inhalt: "toffee"},
+		{name: "Lindt 90%", typ: "dunkel", geschmack: "bitter", preis: "mittel", ort: "schweiz", hersteller: "lindt", inhalt: "none"},
+    {name: "Ritter Sport", typ: "milch", geschmack: "suß", preis: "mittel", ort: "deutschland", hersteller: "Ritter Sport", inhalt: "none"},
+  ]
+}
+
+Quiz logic
+
+attributes:
+ - type
+ - taste
+ - price
+ - filling
+ 
+goal: find the most fitting chocolate given the provided criteria
+
+Process Possiblities
+1. Forward Search:
+    - Iterate through list of all chocolate entries
+    - Filter out all entries without at least one fitting criteria
+    - Iterate through remaining entries
+    - Filter out all entries without at least two fitting criteria
+    - Repeat until no entries exist
+    - Return list with most fitting criteria
+
+--> 2. Reverse Search:
+    - Iterate through list of all chocolate entries
+    - Find all entries with all fitting criteria
+    - Iterate through list again
+    - Find all entries with all-1 fitting criteria
+    - Repeat until at least one entry is found
+    - Return entry
+
+[
+  {
+    "name": "Milka Mmmax Toffee Ganznuss", 
+    "typ": "milch", 
+    "geschmack": "suß", 
+    "preis": "billig", 
+    "ort": "deutschland", 
+    "hersteller": "milka", 
+    "inhalt": ["karamel"], 
+    "url": "https://www.milka.de/produkte/milka-mmmax-toffee-ganznuss"
+  },
+]
+
+
+
+[
+  {
+    "benutzername": "",
+    "passwort": "",
+  },
+  {
+    "benutzername": "",
+    "passwort": "",
+  },
+  {
+    "benutzername": "",
+    "passwort": "",
+  },
+  {
+    "benutzername": "",
+    "passwort": "",
+  },
+]

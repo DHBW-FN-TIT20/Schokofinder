@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="de">
+  
+  {{> htmlheader}}
+  
+  <body>
+    
+    {{> nav items=pagesList}}
+
+    <div class="container-sm">
+        <div class="row justify-content-center">
+            <div class="col limit-width-972">
+                <h1>Willkommen auf Schokofinder!</h1>
+                <p class="welcome-text">
+                Das ist Dein Guide zur perfekten Schokolade! Auf unseren Unterseiten findest Du alles zum Thema Fairtrade, Geschichte 
+                  und Herstellung. <br>
+                Das Quiz stellt dir Fragen rund ums Thema Schokolade und sucht, was zu Dir passt. <br>
+                Klicke auf die Schokotafel, um auf die Unterseiten zu gelangen! <br>
+                </p>
+
+                <div class="d-flex justify-content-center">
+                    <div class="chocolate-split-parent">
+                        <div class="chocolate-split">
+                            <div class="chocolate-square chocolate-square-tl">
+                                <img class="chocolate-square-img" src="https://cdn.glitch.global/e21086d0-d61e-450a-ad59-6cca6726c905/000.png?v=1645710579370">
+                                <p class="chocolate-square-link chocolate-square-link-tl font-family-primary fs-5 mx-auto">Quiz</p>
+                            </div>
+                            <div class="chocolate-square chocolate-square-tr">
+                                <img class="chocolate-square-img" src="https://cdn.glitch.global/e21086d0-d61e-450a-ad59-6cca6726c905/001.png?v=1645710587455">
+                                <p class="chocolate-square-link chocolate-square-link-tr font-family-primary fs-5 mx-auto">Fairtrade</p>
+                            </div>
+                            <div class="chocolate-square chocolate-square-bl">
+                                <img class="chocolate-square-img" src="https://cdn.glitch.global/e21086d0-d61e-450a-ad59-6cca6726c905/002.png?v=1645710591192">
+                                <p class="chocolate-square-link chocolate-square-link-bl font-family-primary fs-5 mx-auto">Geschichte</p>
+                            </div>
+                            <div class="chocolate-square chocolate-square-br">
+                                <img class="chocolate-square-img cursor-pointer" src="https://cdn.glitch.global/e21086d0-d61e-450a-ad59-6cca6726c905/003.png?v=1645710594878">
+                                <p class="chocolate-square-link chocolate-square-link-br font-family-primary fs-5 mx-auto">Herstellung</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    <script>
+      
+        let clicked = [false, false, false, false];
+        let redirects = ["/quiz", "/fairtrade", "/geschichte", "/herstellung"]
+        let buttons = [];
+        document.querySelectorAll(".chocolate-square").forEach((e, i) => {
+            buttons.push(e);
+            e.addEventListener("click", f => {
+                if (!clicked[i]) {
+                    for (let j = 0; j < clicked.length; j++) {
+                        if (j == i) {
+                            //element is the one that is clicked
+                            clicked[j] = true;
+                          
+                            //raise square
+                            switch(j) {
+                                case 0:
+                                    buttons[j].classList.add("chocolate-square-tl-active");
+                                    break;
+                                case 1:
+                                    buttons[j].classList.add("chocolate-square-tr-active");
+                                    break;
+                                case 2:
+                                    buttons[j].classList.add("chocolate-square-bl-active");
+                                    break;
+                                case 3:
+                                    buttons[j].classList.add("chocolate-square-br-active");
+                                    break;
+                            }
+                        } else {
+                            //is other element
+                            clicked[j] = false;
+                          
+                            //reset square
+                            switch(j) {
+                                case 0:
+                                    buttons[j].classList.remove("chocolate-square-tl-active");
+                                    break;
+                                case 1:
+                                    buttons[j].classList.remove("chocolate-square-tr-active");
+                                    break;
+                                case 2:
+                                    buttons[j].classList.remove("chocolate-square-bl-active");
+                                    break;
+                                case 3:
+                                    buttons[j].classList.remove("chocolate-square-br-active");
+                                    break;
+                            }
+                        }
+                    }
+                } else {
+                    //redirect client
+                    window.location.href = redirects[i];
+                }
+            })
+        })
+      
+        window.addEventListener("click", e => {
+            if (!(e.target.classList.contains("chocolate-square") || e.target.classList.contains("chocolate-square-link"))) {
+                buttons[0].classList.remove("chocolate-square-tl-active");
+                buttons[1].classList.remove("chocolate-square-tr-active");
+                buttons[2].classList.remove("chocolate-square-bl-active");
+                buttons[3].classList.remove("chocolate-square-br-active");
+                clicked = [false, false, false, false];
+            }
+        });
+    </script>
+  
+    {{> footer}}
+    
+    </body>
+</html>

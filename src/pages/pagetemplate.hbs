@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="de">
+
+  {{> htmlheader title=page.title}}
+
+  <body>
+    
+    {{> nav items=pagesList}}
+
+    <div class="container-sm">
+      
+      <h1 class="col limit-width-972 mb-1 mx-auto">{{page.title}}</h1>
+      <hr class="limit-width-972 mx-auto mt-0 hr-color-light">
+      
+      {{#each page.blocks}}
+          <div class="row align-items-center flex-column">
+              <h2 class="col limit-width-880 mt-2">{{this.section_title}}</h2>
+              <div class="col limit-width-880">
+                  {{#if this.image}}
+                      {{#if (isEven @index)}}
+                          <img class="img-thumbnail img-breaking float-start m-2 mt-1 mx-3" src="{{this.image}}">
+                      {{else}}
+                          <img class="img-thumbnail img-breaking float-end m-2 mt-1 mx-3" src="{{this.image}}">
+                      {{/if}}
+                  {{/if}}
+                  <p class="px-2">
+                      {{#if (isArray this.text)}}
+                          {{#each this.text}}
+                              {{this}}
+                              <br><br>
+                          {{/each}}
+                      {{else}}
+                          {{this.text}}
+                      {{/if}}
+                  </p>
+              </div>
+          </div>
+      {{/each}}
+
+    </div>
+    
+    {{> footer}}
+    
+  </body>
+</html>
