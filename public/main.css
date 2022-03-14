@@ -20,7 +20,7 @@ Rose White #f7e3db
 body {
     font-family: 'Andada Pro', 'Times New Roman', Times, serif;
     background-color: #171210;
-    background-image: url('https://cdn.glitch.global/e21086d0-d61e-450a-ad59-6cca6726c905/45degreee_fabric_dark-sharpened.png?v=1646735657368');
+    background-image: url('/img/Background/Background2.png');
     color: #f7e3db;
 }
 h1, h2, h3, h4 {
@@ -59,7 +59,7 @@ a:hover {
 }
 .bg-color-brown-dark {
   background-color: #6a4220;
-  background-image: url('https://cdn.glitch.global/e21086d0-d61e-450a-ad59-6cca6726c905/fabric_1-brown.png?v=1646736541993');
+  background-image: url('/img/Background/Background2.png');
   box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.25);
 }
 .text-s-primary {
@@ -79,7 +79,7 @@ a:hover {
   height: min-content;
   padding: 0.6em;
   margin: 10% 0 20% 0;
-  background-image: url('https://cdn.glitch.global/e21086d0-d61e-450a-ad59-6cca6726c905/aluminum-square-s.png?v=1647211457464');
+  background-image: url('/img/index/index1.png');
   background-repeat: no-repeat;
   background-size: contain;
 }

@@ -10,7 +10,7 @@
           "Das weltweite Handelssystem sorgt dafür, dass die Vorteile des Welthandels ungerecht verteilt sind. Die Menschen am Anfang der Lieferkette in Entwicklungs- und Schwellenländern haben mit schlechteren Ausgangsbedingungen, weniger Einfluss und prekäreren Arbeits- und Lebensverhältnissen zu kämpfen. ",
           "Fairtrade ermöglicht es Produzent*innen aus Afrika, Asien und Lateinamerika, zu einer einflussreichen Kraft für Veränderungen in ihrem Umfeld zu werden und selbstbestimmt ihre Zukunft zu gestalten."
         ],
-        "image": "https://cdn.glitch.global/e21086d0-d61e-450a-ad59-6cca6726c905/FairTradeSchokolade.jfif?v=1645107742594"
+        "image": "/static/img/FairTrade/FairTrade1.jfif"
       },
       {
         "section_title": "FAIRTRADE-SIEGEL",
@@ -18,7 +18,7 @@
           "Das Fairtrade-Siegel steht für fair angebaute und gehandelte Produkte, bei dem alle Zutaten zu 100 Prozent unter Fairtrade-Bedingungen gehandelt sind und physisch rückverfolgbar sind, wie zum Beispiel bei Kaffee, Bananen oder Schokolade. Produkte, die mit dem Fairtrade-Siegel ausgezeichnet sind, werden nach den internationalen Standards von Fairtrade International angebaut und gehandelt.", 
           "Das Siegel ermöglichen den Kleinbauernkooperativen stabilere Preise sowie langfristige Handelsbeziehungen. Sowohl Bäuerinnen und Bauern als auch Beschäftigte auf Plantagen erhalten eine zusätzliche Fairtrade-Prämie für Gemeinschaftsprojekte. Die Standards enthalten darüber hinaus Kriterien zu demokratischen Organisationsstrukturen, Umweltschutz und sicheren Arbeitsbedingungen. Die Kontrollen werden von FLOCERT durchgeführt."
          ],
-        "image": "https://cdn.glitch.global/e21086d0-d61e-450a-ad59-6cca6726c905/ft-siegel_aufmacher_neu_870x330.jpg?v=1645438433342"
+        "image": "/static/img/FairTrade/FairTrade2.jpg"
       },
       {
         "section_title": "DAS FAIRTRADE-SYSTEM",
@@ -26,7 +26,7 @@
           "Hinter Fairtrade stehen verschiedene Organisationen: Die Dachorganisation Fairtrade International setzt sich aus 28 Mitgliedern zusammen: 25 nationale Fairtrade-Organisationen (NFO) und drei Produzentennetzwerke. Geleitet wird das Fairtrade-System über die Generalversammlung, die jährlich zusammenkommt und über Mitgliedschaftsangelegenheiten entscheidet, den Jahresabschluss verabschiedet und neue Vorstandsmitglieder ernennt. Das Stimmrecht ist gleichmäßig verteilt zwischen den Fairtrade-Produzentennetzwerken (50 Prozent) und den nationalen Fairtrade-Organisationen (50 Prozent). Darüber hinaus treffen sich die nationalen Fairtrade-Organisationen und die drei Produzentennetzwerke jeweils jährlich zu einer eigenen Versammlung.", 
           "Das zentrale Entscheidungsorgan im Fairtrade-System ist der Vorstand. Er beschließt die Fairtrade-Strategie und verabschiedet die Fairtrade-Mindestpreise, -Prämien und Standards. Die Generalversammlung wählt den Vorstand, der sich aus vier von drei Produzentennetzwerken nominierten Mitgliedern, vier von den nationalen Fairtrade-Organisationen nominierten und drei unabhängigen Mitgliedern zusammensetzt."
         ],
-        "image": "https://cdn.glitch.global/e21086d0-d61e-450a-ad59-6cca6726c905/FairtradeSystem.jpg?v=1645519467980"
+        "image": "/static/img/FairTrade/FairTrade3.jpg"
       }
     ]
   },
@@ -41,12 +41,12 @@
       {
         "section_title": "DIE ANFÄNGE VON KAKAO",
         "text": "Die Geschichte der Schokolade beginnt in Südamerika. Hier wird der Ursprung des wild wachsenden Kakaos vermutet. Neue Untersuchungen im Hochland von Ecuador zeigen, dass Kakao hier schon seit etwa 5500 Jahren genutzt wird. Das Hochland von Ecuador ist daher Ausgangspunkt für den frühen Handeln bis an die Pazifikkste sowie für die Ausbreitung der Nutzung des Kakaos nach Norden. In Mittelamerika war der Kakaobaum bereits vor fast 4000 Jahren bekannt. Während man in Südamerika hauptsächlich das Fruchtfleisch nutzte, pur oder in gegärter Form als alkoholisches Getränk, wurde in Mittelamerika hingegen sowohl das Fruchtfleisch als auch die Bohne verwendet. Die Geschichte der Schokolade führt von Ecuador ins heutige Mexiko.",
-        "image": "https://cdn.glitch.global/e21086d0-d61e-450a-ad59-6cca6726c905/kakaoundschokolade-kw-091127903.jpg?v=1645532985658"
+        "image": "/static/img/Geschichte/Geschichte1.jpg"
       },
       {
         "section_title": "KAKAO BEI DEN OLMEKEN IN MEXIKO",
         "text": "Die Olmeken waren die erste bekannte Hochkultur im heutigen Mexiko. Ihre Blütezeit war von 1500 bis 400 v. Chr.. Bekannt ist diese Kultur vor allem für ihre kolossalen Steinköpfe, die vermutlich Herrscher darstellen. Von ihr ist kaum etwas überliefert. Funde aus den Siedlungsgebieten jedoch belegen, dass die Olmeken bereits 1800 bis 1000 v. Chr. ein Kakaogetränk zubereitet haben. Auch das Wort „Kakao“ wurde damals vermutlich bereits benutzt. Die Familie der Mixe-Zoque-Sprachen, die heute noch im südlichen Mexiko gesprochen werden, deutet darauf hin, dass die Urform der Sprachfamilie von den Olmeken genutzt wurde. Darin gibt es das Wort „kakawa“, das die Wandlung der Sprachen überdauert hat und zu „Kakao“ wurde. ",
-        "image": "https://cdn.glitch.global/e21086d0-d61e-450a-ad59-6cca6726c905/verbrauchertipps-kakao-geschichte-olmeken-steinkopf-wikimedia.jpg?v=1645532628321"
+        "image": "/static/img/Geschichte/Geschichte2.jpg"
       },
       {
         "section_title": "DIE MAYA",
@@ -55,7 +55,7 @@
           "In einem Gefäß, beschriftet mit der Glyphe 'kakaw', fanden Archäologen an der Innenseite einen dunklen Belag. Analysen ergaben, dass dieser Theobromin enthielt, ein Inhaltsstoff von Kakao, der ein starker Hinweis darauf war, dass es sich bei dem Pulver um Reste eines Kakaogetränks handelte. Dieser Kakao wurde zwischen 460 und  480 n.Ch. hergestellt. Ein weitere Meilenstein in der Geschichte. Die Maya kultivierten den Kakaobaum, bauten ihn auf großen Feldern an und entwickelten Bewässerungssysteme, um möglichst ertragreiche Ernten zu erhalten. Durch die Handelswege konnte der Kakao von den wenigen geeigneten Anbaugebieten in das gesamte Reich der Maya und später auch zu den Azteken transportiert werden. Es gab verschiedene Rezepturen und Zutaten und Kakao wurde auch als Brei oder Gewürz verwendet. Diego De Landa, Bischof von Yucatán und Maya-Forscher des 16. Jahrhunderts, schrieb: „Aus Mais und gemahlenem Kakao machen sie einen Sirup, der sehr schmackhaft ist und mit dem sie ihre Feste feiern; aus dem Kakao gewinnen sie ein Fett, das wie Butter aussieht, und daraus und aus Mais stellen sie einen anderenschmackhaften und geschätzten Trank her.“ Auch gab es, wie in Südamerika, eine berauschende Variante des Kakaogetränks durch die Fermentation des Fruchtfleischs. ", 
           "Das Kakaogetränk wurde unter anderem von den Maya als eine Art Weihwasser benutzt, um den übergang des Jugendlichen in das Erwachsenendasein zu zelebrieren. Neben Kopal und Menschen wurde auch Kakao als Opfergabe für die Götter dargeboten. Als Grabbeigaben wurden sowohl Kakao als auch Trinkgefäße beigelegt. Als Heilpflanze war Kakao bei den Maya ein Allheilmittel, das bei Durchfall, Masern oder Geburtsschmerzen zum Einsatz kam. Die Kakaobutter dagegen wurde dank ihrer desinfizierenden Eigenschaften bei Entzündungen, Schuppen und Tierbissen aufgetragen oder als generelle Hautpflege eingesetzt. Die Kakaobohne wurde zudem als Tausch- und Zahlungsmittel oder für Tributzahlungen genutzt."
         ],
-        "image": "https://cdn.glitch.global/e21086d0-d61e-450a-ad59-6cca6726c905/verbrauchertipps-kakao-geschichte-adligerbietetkakaomassean-wikimedia.jpg?v=1645532802355"
+        "image": "/static/img/Geschichte/Geschichte3.jpg"
       },
       {
         "section_title": "DIE AZTEKEN",
@@ -64,7 +64,7 @@
           "Da Kakaobohnen auch Zahlungsmittel waren, wurden ihre Lagerhäuser streng bewacht. Waagen waren zu dieser Zeit noch nicht bekannt und so wurde ein Warenwert mit einer bestimmten Anzahl Bohnen abgegolten. So kostete etwa ein Truthahn 200 Kakaobohnen, ein Hase 100 Kakaobohnen und eine Avocado zwischen ein und drei Kakaobohnen. Der Tageslohn eines Lastenträgers entsprach zur Zeit der Eroberung der Hauptstadt im Jahre 1521 ebenfalls 100 Kakaobohnen.", 
           "Die Azteken machten aus der Geschichte des Kakao eine Geschichte der Schokolade. Sie nannten sowohl den Kakao als auch das Kakaogetränk „cacahuatl“. Wissenschaftler vermuten, dass die Zubereitung jener der Mayakultur entspricht, das Getränk jedoch vorrangig kalt getrunken wurde. Die Azteken nutzten Kakao und Kakaobutter als Heilmittel, als Geschenk und als Opfergabe."
         ],
-        "image": "https://cdn.glitch.global/e21086d0-d61e-450a-ad59-6cca6726c905/verbrauchertipps-kako-geschichte-azteken-mann-traegt-eine-schale-mit-kakao.jpg?v=1645532914968"
+        "image": "/static/img/Geschichte/Geschichte4.jpg"
       }
     ]
   },
@@ -78,7 +78,7 @@
           "Um die zarte und wohlschmeckende Schokolade zu erhalten, wie wir sie heute kennen, sind zahlreiche Schritte notwendig. Die industrielle Herstellung von Schokolade folgt dabei den gleichen Prinzipien wie die handwerkliche Herstellung durch den Chocolatier oder der Herstellung zu Hause. Unternehmen setzen jedoch präzise, elektronisch gesteuerte Anlagen ein, um eine gleichbleibende hohe Qualität zu erzielen und die Kosten niedrig zu halten. Hier wird ein Einblick in die Schokoladenproduktiong gegeben und die Frage beantwortet “Wie wird Schokolade gemacht?”: ", 
           "Die industrielle Herstellung ist aufwändig und mit hohen Anforderungen verbunden. Schokolade selber zu machen ist jedoch nicht besonders schwierig. Allerdings wird man zu Hause die Qualität, die man von professionell hergestellter Schokolade gewohnt ist, leider nicht erreichen. Die einzelnen Schritte beschreiben den industriellen Prozess der Schokoladenherstellung."
         ],
-        "image": "https://cdn.glitch.global/e21086d0-d61e-450a-ad59-6cca6726c905/EInBildVonSchokolade.jpg?v=1645533491471"
+        "image": "/static/img/Herstellung/Herstellung1.jpg"
       },
       {
         "section_title": "TRANSPORT UND REINIGUNG DER KAKAOBOHNEN",
@@ -109,7 +109,7 @@
           "Wird der Kakaomasse Zucker hinzugefügt entsteht die Rohmasse für dunkle Schokolade. Setzt man neben der Kakaobutter noch Sahne oder Milch hinzu erhält man die Rohmasse für Milchschokolade. Neben diesen Zutaten können noch Gewürze beigemischt werden, um ein besonderes Aroma zu erhalten.Die genaue Mischung ist das Geheimnis der Schokoladenhersteller. Der Mischvorgang dauert ca. eine halbe Stunde. Die dabei entstandene Schokoladenmasse hat bereits das Schokoladenaroma. Sie ist jedoch noch nicht fein genug, um verkauft zu werden.Das Mischen findet im sogenannten Mélangeur statt. Die Zutaten wie Zucker, Milchpulver Kakaobutter werden hinzugefügt und durch Walzen und Rühren mit der Kakaomasse vermischt. In diesem Schritt können noch weitere Zutaten wie Gewürze oder Aromen beigemischt werden. Mélangeur ist französisch und bedeutet Mischmaschine.", 
           "Die gewonnene Masse ist jedoch noch zu grob, um ein angenehmes, schmelzendes Gefühl zu geben. Daher muss sie noch einmal unter die Walze.In diesem Schritt werden die Bestandteile der Schokoladenmasse durch Walzen zerkleinert und vermengt. Je kleiner die Partikel sind, desto feiner kann die Schokolade werden. Ist die Schokoladenmasse zu grob, fühlt sich die Schokolade im Mund körnig und sandig an. Das Mahlen findet in Walzen statt, die die Schokoladenmasse hauchdünn zerreiben. Diesen Schritt nennt man Feinwalzen.Je feiner die Partikel sind, desto zarter ist die Schokolade. Sehr feine Schokoladen werden solange gemahlen, bis die Partikel ca. 14 bis 18 Mikrometer groß sind. "
         ],
-        "image": "https://cdn.glitch.global/e21086d0-d61e-450a-ad59-6cca6726c905/Prozess_Herstellung_Schokolade.png?v=1645534627773"
+        "image": "/static/img/Herstellung/Herstellung2.png"
       },
       {
         "section_title": "CONCHIEREN",
