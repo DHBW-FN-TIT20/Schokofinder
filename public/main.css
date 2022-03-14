@@ -7,14 +7,42 @@ Light Coffee #E6BF9C
 Rose White #f7e3db
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital@0;1&family=Rowdies:wght@300;400&display=swap');
-
 * {
     margin: 0;
     box-sizing: border-box;
 }
+
+/* ---- import fonts ---- */
+/* from: fonts.google.com */
 @font-face {
-  font-family: 'Andada Pro', 'Times New Roman', Times, serif;
+  font-family: 'Rowdies';
+  src: url('/static/fonts/Rowdies/Rowdies-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Rowdies';
+  src: url('/static/fonts/Rowdies/Rowdies-Bold.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Rowdies';
+  src: url('/static/fonts/Rowdies/Rowdies-Light.ttf') format('truetype');
+  font-weight: light;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Andada Pro';
+  src: url('/static/fonts/Andada_Pro/AndadaPro-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Andada Pro';
+  src: url('/static/fonts/Andada_Pro/AndadaPro-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
 }
 
 body {
