@@ -28,7 +28,6 @@
     "fastify-formbody": "^5.2.0",
     "fastify-static": "^4.5.0",
     "handlebars": "^4.7.7",
-    "jsdoc": "^3.6.10",
     "point-of-view": "^5.1.0"
   }
 }
